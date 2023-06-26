@@ -23,9 +23,9 @@ def pregunta_01():
     # retorna el dataframe con las dos columnas.
     df = pd.read_csv(
         "amazon_cells_labelled.tsv",
-        sep=sep="\t",
+        sep="\t",
         header=None,
-        names=names=['msg','lbl'],
+        names=['msg','lbl'],
     )
 
     # Separe los grupos de mensajes etiquetados y no etiquetados.    
